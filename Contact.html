@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/contect.css">
+
+</head>
+<body>
+  <!-- Header -->
+  <!--col-12  -->
+  <div class="header">
+    <img src="pictures/Pawesome.jpg"
+    style="width:100%">
+  </div>
+
+  <div class="topnav" id="mytopnav">
+    <a href = "index.html">Home &nbsp;</a>
+		<a href = "About.html">About Us &nbsp;</a>
+		<a href = "Events.html">Events &nbsp;</a>
+		<a href = "contact.html">Contact&nbsp;</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars">
+    </a>
+  </div>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("mytopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+
+
+
+    <div class="left">
+      <form>
+        <label for="name"> Name</label>
+        <input type="text" id="name" name="name">
+        
+        <label for="Email">Email</label>
+        <input type="text" id="Email" name="Email">
+        
+<label for="phone">phone number</label>
+        <input type="text" id="Phone Number" name="Phone">
+  
+        <label for="about">About you</label>
+        <textarea id="text"> </textarea>
+        <input type="submit" value="Submit">
+      </form>
+      <div class="img1">
+      <img src="pictures/E5KCg1EXMAEsjWa.jpg"
+      style="width:30%">
+    </div>
+ 
+
+    <div class="side">
+      <P><B>Events</B></P>
+      <h3> meet-and-greet</h3>
+      <br>
+      <h4> Picture Gallery</h4>
+      <br>
+      <h3> Animal walk-a-thon</h3>
+      <br>
+      <h4> Pet Bake Sale </h4>
+    </div>
+  </div>
+
+  <div class="footer">
+    <h2>Phone Number: (845)245-2541 Email:PawesonePets@aol.com</h2>
+  </div>
+
+</body>
+</html>
